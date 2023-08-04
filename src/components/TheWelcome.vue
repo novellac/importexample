@@ -16,7 +16,8 @@
 
   <WelcomeItem>
     <template #icon>
-      <IconTooling />
+      <IconResolver variant="tooling"/>
+      <!-- <IconTooling /> -->
     </template>
     <template #heading>Tooling</template>
 
@@ -70,7 +71,8 @@
 
   <WelcomeItem>
     <template #icon>
-      <IconSupport />
+      <IconResolver variant="support" />
+      <!-- <IconSupport /> -->
     </template>
     <template #heading>Support Vue</template>
 
